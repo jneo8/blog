@@ -8,7 +8,7 @@ Mermaid is a tool helping user to use dependency injection more easily. By using
 
 ## Project
 
-[mermaid](https://github.com/jneo8/mermaid)
+link: **[mermaid](https://github.com/jneo8/mermaid)**
 
 Mermaid 這個專案的誕生, 是因為自己工作上時常需要寫cli tool而誕生的一個golang專案
 
@@ -42,34 +42,35 @@ Mermaid 這個專案的誕生, 是因為自己工作上時常需要寫cli tool�
 
 ## Config
 
-- 談config 之前, 我們可以先想看看有哪些東西是我們需要處理的範圍
+談config 之前, 我們可以先想看看有哪些東西是我們需要處理的範圍
 
-    - `Default variable`: Default var, 會寫在程式內
+- `Default variable`: Default var, 會寫在程式內
 
-    - `Config file`: Config file, e.g., yaml.
+- `Config file`: Config file, e.g., yaml.
 
-    - `environment variable`: Get from environment.
+- `environment variable`: Get from environment.
 
-    - `Input arguments`: From cli args input.
+- `Input arguments`: From cli args input.
 
-- 一般來說要符合使用, 引用順序應該會是
+一般來說要符合使用, 引用順序應該會是
 
-    **`default` -> `config` -> `environment` -> `input args`**
+**`default` -> `config` -> `environment` -> `input args`**
 
-    > 後段的會覆蓋前面的. 這樣的順序應該不論是cli或者container都適用
+- 後段的會覆蓋前面的. 這樣的順序應該不論是cli或者container都適用
 
-- 最後lib 選擇
-    - `config` & `environment variable`使用的是[viper](https://github.com/spf13/viper)
+最後lib 選擇
 
-    - `default variable` & `input args` 使用的是 [cobra](https://github.com/spf13/cobra)
+- `config` & `environment variable`使用的是[viper](https://github.com/spf13/viper)
 
-- 而我們為了把所有的設定都給DI, 決定把他變成一個唯一的entity -> [viper.Viper](https://godoc.org/github.com/spf13/viper#Viper)
-    - 所以實作上
-        - `default`, `input args` -> **cobra**
-        - `config`, `environment` -> **viper**
-        - **cobra** -> **viper**
+- `default variable` & `input args` 使用的是 [cobra](https://github.com/spf13/cobra)
 
-- 後續我們只需要處理**viper**跟**dig**之間的綁定就好
+而我們為了把所有的設定都給DI, 決定把他變成一個唯一的entity -> [viper.Viper](https://godoc.org/github.com/spf13/viper#Viper). 所以實作上
+
+- `default`, `input args` -> **cobra**
+- `config`, `environment` -> **viper**
+- **cobra** -> **viper**
+
+後續我們只需要處理**viper**跟**dig**之間的綁定就好
 
 ## Logger
 
@@ -87,20 +88,20 @@ Mermaid 這個專案的誕生, 是因為自己工作上時常需要寫cli tool�
 
     - 算必須. 大部份的lib也都有
 
-- Logger 是用 [logrus](https://github.com/sirupsen/logrus)
+Logger lib 是用 [logrus](https://github.com/sirupsen/logrus)
 
 
 ## Testing
 
-- global的東西真的不好測試, 所以為了讓東西變得測試容易
+global的東西真的不好測試, 所以為了讓東西變得測試容易
 
-    - **cobra** 只負責抓default跟args, 還有當進入點. 
+- **cobra** 只負責抓default跟args, 還有當進入點. 
 
-    - **viper** 基本上runtime才會init, command 之間不會影響
+- **viper** 基本上runtime才會init, command 之間不會影響
 
-    - Logger同上
+- Logger同上
 
-- 這樣的意思是說, 每個cmd之間, config跟logger都是獨立的, 這會讓測試變得容易許多
+這樣的意思是說, 每個cmd之間, config跟logger都是獨立的, 這會讓測試變得容易許多
 
 
 ---
