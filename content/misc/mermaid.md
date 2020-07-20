@@ -1,6 +1,6 @@
 ---
 author: jneo8
-title: mermaid project
+title: Mermaid - golang tool help user doing dependency more easily
 date: 2020-06-29 10:41:57 +0800
 ---
 
