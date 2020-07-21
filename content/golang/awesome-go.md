@@ -2,6 +2,7 @@
 author: jneo8
 title: Awesome go
 date: 2020-07-21 00:01:21 +0800
+tags: golang
 ---
 
 _A curated list of awesome golang articles, frameworks, libraries, software and resources._
@@ -31,10 +32,15 @@ _A curated list of awesome golang articles, frameworks, libraries, software and 
 * [logrus](https://github.com/Sirupsen/logrus)
 * [logrus-filename](https://github.com/keepeye/logrus-filename)
 
-
 ## Design Pattern
 
 * [go-patterns](https://github.com/tmrts/go-patterns)
+
+## Databases Drivers
+
+* NoSQL Databases
+    * Cassandra
+        * [gocqlx](https://github.com/scylladb/gocqlx)
 
 ---
 
