@@ -14,6 +14,7 @@ show-commit-msg:  ## show COMMITMSG
 
 deploy:  ## Auto deploy to github page with times commit
 	./deploy.sh "Auto-deploy at ${DATE} commit: ${COMMIT}"
+	git submodule update public
 
 .PHONY: deploy
 
