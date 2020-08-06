@@ -2,7 +2,6 @@
 author: jneo8
 title: Mermaid - golang tool help user doing dependency more easily
 date: 2020-06-29 10:41:57 +0800
-tags: golang
 ---
 
 Mermaid is a tool helping user to use dependency injection more easily. By using dig, cobra and viper together.
