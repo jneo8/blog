@@ -13,8 +13,8 @@ show-commit-msg:  ## show COMMITMSG
 ##@ hugo
 
 deploy:  ## Auto deploy to github page with times commit
+	cd ./public && git checkout master && git pull
 	./deploy.sh "Auto-deploy at ${DATE} commit: ${COMMIT}"
-	git submodule update public
 
 .PHONY: deploy
 
