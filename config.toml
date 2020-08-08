@@ -1,6 +1,5 @@
-[base]
-  baseURL = "https://jneo8.github.io"
-  languageCode = "en-us"
-  title = "jneo8.github.io"
-  disqusShortname = "jneo8"
-  theme = "sk3"
+baseURL = "https://jneo8.github.io/"
+languageCode = "en-us"
+title = "jneo8.github.io"
+disqusShortname = "jneo8"
+theme = "sk3"
