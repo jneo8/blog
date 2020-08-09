@@ -21,7 +21,7 @@ pageinfobox = true
 
 [Params.card]
 date = true
-summary = true
+summary = false
 width = "32%"
 
 [Params.sociallink]
