@@ -19,6 +19,12 @@ title = "jneo8.github.io"
 descrption = "There is no spoon"
 pageinfobox = true
 
+[Params.color]
+bg     = "white"
+border = "black"
+link   = "#3d84ff"
+text   = "black"
+
 
 [Params.card]
 date = true
