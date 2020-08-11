@@ -1,5 +1,48 @@
 baseURL = "https://jneo8.github.io"
 languageCode = "en-us"
-title = "jeno8 blog"
-theme = "ananke"
+title = "jneo8.github.io"
 disqusShortname = "jneo8"
+theme = "sk3"
+googleAnalytics = "UA-171057898-1"
+
+[Params]
+mainSections = "posts"
+subtitle = "There is no spoon"
+startdate = "2019-01-01"
+listlastmod = true
+pagewidth = "80%"
+pageinate = 15
+# Twitter
+opengraph = true
+twittercards = true
+title = "jneo8.github.io"
+descrption = "There is no spoon"
+pageinfobox = true
+
+[Params.color]
+bg     = "white"
+border = "black"
+link   = "#3d84ff"
+text   = "black"
+
+
+[Params.card]
+date = true
+summary = false
+width = "32%"
+
+[Params.sociallink]
+twitter = "lin_jneo8"
+github = "jneo8"
+linkedin = "james-lin-735548115"
+
+[Params.socialshare]
+twitter = true
+facebook = true
+linkedin = true
+telegram = true
+
+[markup]
+  [markup.tableOfcontents]
+  endLevel = 6
+  startLevel = 1
