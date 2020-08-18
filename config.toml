@@ -4,6 +4,7 @@ title = "jneo8.github.io"
 disqusShortname = "jneo8"
 theme = "sk3"
 googleAnalytics = "UA-171057898-1"
+staticDir = ["static"]
 
 [Params]
 mainSections = "posts"
