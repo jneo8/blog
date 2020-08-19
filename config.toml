@@ -7,7 +7,7 @@ googleAnalytics = "UA-171057898-1"
 staticDir = ["static"]
 
 [Params]
-mainSections = "posts"
+mainSections = "posts flink"
 subtitle = "There is no spoon"
 startdate = "2019-01-01"
 listlastmod = true
