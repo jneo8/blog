@@ -11,7 +11,7 @@ mainSections = "posts"
 subtitle = "There is no spoon"
 startdate = "2019-01-01"
 listlastmod = true
-pagewidth = "80%"
+pagewidth = "1200px"
 pageinate = 15
 # Twitter
 opengraph = true
