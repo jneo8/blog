@@ -13,6 +13,10 @@ startdate = "2019-01-01"
 listlastmod = true
 pagewidth = "1200px"
 pageinate = 15
+
+# CSS
+custom_css = ["/css/img.css"]
+
 # Twitter
 opengraph = true
 twittercards = true

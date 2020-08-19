@@ -31,6 +31,6 @@ date: 2020-08-18T16:25:45+08:00
 
 - #### Flink 用了一套相同的Engine ( _flink runtime_ ) 去處理unbounded && bounded數據
 
-![flink-runtime](/img/flink-runtime.png)
+![flink-runtime](/img/flink-runtime.png#center)
 
 _runtime_ 是flink的核心運算架構, 之後會提到
