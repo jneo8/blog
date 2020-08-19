@@ -33,7 +33,7 @@ text   = "black"
 
 [Params.card]
 date = true
-summary = false
+summary = true
 width = "32%"
 
 [Params.sociallink]
@@ -51,3 +51,8 @@ telegram = true
   [markup.tableOfcontents]
   endLevel = 6
   startLevel = 1
+
+[menu]
+[[menu.main]]
+name = "Tags"
+url = "/tags"
