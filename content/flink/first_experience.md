@@ -27,5 +27,4 @@ Dataset 跟 Data streaming, flink用一個通用的方式去同時處理Unbounde
 _為什麼要掃源碼, 只能說scala的example少的可憐, 相比java來說_
 
 
-
 之後等理解更多之後應該會寫一些分享文出來

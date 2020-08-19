@@ -4,13 +4,14 @@ title = "jneo8.github.io"
 disqusShortname = "jneo8"
 theme = "sk3"
 googleAnalytics = "UA-171057898-1"
+staticDir = ["static"]
 
 [Params]
 mainSections = "posts"
 subtitle = "There is no spoon"
 startdate = "2019-01-01"
 listlastmod = true
-pagewidth = "80%"
+pagewidth = "1200px"
 pageinate = 15
 # Twitter
 opengraph = true
