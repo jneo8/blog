@@ -8,7 +8,7 @@ flink Unbounded and Bounded
 
 <!--more-->
 
-![flink-logo](/img/flink-header-logo.svg)
+![flink-logo](/img/flink/flink-header-logo.svg)
 
 # Unbounded and Bounded 
 
@@ -36,6 +36,6 @@ flink Unbounded and Bounded
 
 - #### Flink 用了一套相同的Engine ( _flink runtime_ ) 去處理unbounded && bounded數據
 
-![flink-runtime](/img/flink-runtime.png#center)
+![flink-runtime](/img/flink/flink-runtime.png#center)
 
 _runtime_ 是flink的核心運算架構, 之後會提到
