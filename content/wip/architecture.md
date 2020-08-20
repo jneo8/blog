@@ -5,3 +5,12 @@ tags: ["flink"]
 ---
 
 ![flink-logo](/img/flink/flink-header-logo.svg)
+
+
+# Architecture
+
+![flink-runtime](/img/flink/flink-runtime.png#center)
+
+- Flink Component stack
+
+![flink-logo](/img/flink/processes.svg)

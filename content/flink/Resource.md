@@ -7,6 +7,8 @@ Resource list for flink
 
 <!--more-->
 
+## Official site
+
 [flink.apache.org](https://flink.apache.org/)
 
     - 官網
@@ -24,3 +26,16 @@ Resource list for flink
 [Github/Flink](https://github.com/apache/flink)
 
     - Flink 專案Github page
+
+[ververica](https://www.ververica.com/)
+
+    - Flink Stephan Ewen 發起人開的公司
+
+
+## 2019 Flink Forward
+
+[Keynote: Stream Processing and Applications in the Modern Age - Stephan Ewen](https://www.youtube.com/watch?v=bun0qQOX_cY)
+    
+    - Stephan Ewen 講 Streaming processing
+
+        - stateful function
