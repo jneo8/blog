@@ -56,3 +56,6 @@ telegram = true
 [[menu.main]]
 name = "Tags"
 url = "/tags"
+[[menu.main]]
+name = "WIP"
+url = "/wip"
