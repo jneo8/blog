@@ -16,6 +16,9 @@ pageinate = 15
 
 # CSS
 custom_css = ["/css/img.css"]
+# JS
+custom_js = ["/js/latex.js"]
+
 
 # Twitter
 opengraph = true
