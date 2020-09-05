@@ -7,7 +7,7 @@ googleAnalytics = "UA-171057898-1"
 staticDir = ["static"]
 
 [Params]
-mainSections = "posts flink kubernetes"
+mainSections = "posts flink kubernetes reading"
 subtitle = "There is no spoon"
 startdate = "2019-01-01"
 listlastmod = true
@@ -59,9 +59,6 @@ telegram = true
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-[[menu.main]]
-name = "Kubernetes"
-url = "/kubernetes"
 [[menu.main]]
 name = "WIP"
 url = "/wip"
