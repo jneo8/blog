@@ -13,7 +13,7 @@ startdate = "2019-01-01"
 listlastmod = true
 pagewidth = "1200px"
 pageinate = 15
-favicon = "/img/pikachu-icon-12.jpg"
+favicon = "/img/pikachu-icon.jpg"
 
 # CSS
 custom_css = ["/css/img.css"]
