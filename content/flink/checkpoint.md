@@ -1,18 +1,14 @@
 ---
-title: "Checkpoints"
+title: "[Flink] Checkpoints"
 date: 2020-08-23T20:55:16+08:00
 markup: mmark
 ---
 
 ![flink-logo](/img/flink/flink-header-logo.svg)
 
-Introduce Flink Checkpoints.
+_Introduce Flink Checkpoints_ .
 
 <!--more-->
-
----
-
-# Clickpoint
 
 ---
 
@@ -20,12 +16,13 @@ Introduce Flink Checkpoints.
 
 * Flink 的容錯機制核心, 是透過繪制一致的Checkpoint和分佈式的數據流來達成
 
-* Clickpoint 可以讓state && corresponding stream position 被恢復
+* Clickpoint 可以讓 state && corresponding stream position 被恢復
 
 * 故障發生後, Flink 會倒退回這些 checkpoint 
 
-    * Flink繪制這些 Data flow 的機制: [Lightweight Asynchronous Snapshots for Distributed Dataflows](https://arxiv.org/abs/1506.08603)
-        * 這項技術從 [Candy-Lamport algorithm](https://www.microsoft.com/en-us/research/publication/distributed-snapshots-determining-global-states-distributed-system/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Flamport%2Fpubs%2Fchandy.pdf) 得到啟發, 並針對 Flink 模式進行改善
+    * Flink 繪制 Data flow 的機制: [Lightweight Asynchronous Snapshots for Distributed Dataflows](https://arxiv.org/abs/1506.08603)
+
+        * 這項技術從 [Candy-Lamport algorithm](https://www.microsoft.com/en-us/research/publication/distributed-snapshots-determining-global-states-distributed-system/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Flamport%2Fpubs%2Fchandy.pdf) 得到啟發並針對 Flink 模式進行改善
 
     * Checkpoint 的操作是 asynchronously
 
@@ -65,6 +62,8 @@ Introduce Flink Checkpoints.
 
 * 一旦 snapshot 完成, job 就不會再向 data sourece 要 $$S^{n}$$ 之前的數據
 
+<br>
+
 ![stream_aligning](/img/flink/stream_aligning.svg)
 
     * 這張圖展示對齊式 checkpoint 的運作方式
@@ -94,7 +93,33 @@ Introduce Flink Checkpoints.
 > **Note that the alignment is needed for all operators with multiple inputs and for operators after a shuffle when they consume output streams of multiple upstream subtasks.**
 
 
+### Snapshotting Operator State
+
+_When operators contain any form of state, this state must be part of the snapshots as well_
+
+* Operators snapshot their state at the point in time when they have received all snapshot barriers form their input streams, and before emitting the barries to their output streams.
+
+* Default 會存在 JobManager memory 中
+    * Production 應該要使用 distributed reliable storage (such as HDFS)
+
+![flink-stream_barriers](/img/flink/checkpointing.svg#center)
+
+### Recovery
+
+* 失敗時會選擇最新完成的 checkpoint `k`, 然後會重新 deploy 整個 distrubuted dataflow.
+
+* 給每個 operator checkpoint `k` 的 state
+
+
+<br>
+<br>
+<br>
+
 ---
+
+<br>
+<br>
+<br>
 
 ## Enable Checkpoints
 
@@ -139,6 +164,8 @@ Introduce Flink Checkpoints.
 * Use a state backend specific(low-level) data format, may be incremental
 
 * Do not support Flink specific features like rescaling
+
+
 
 
 ---
