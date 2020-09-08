@@ -12,7 +12,7 @@ subtitle = "There is no spoon"
 startdate = "2019-01-01"
 listlastmod = true
 pagewidth = "1200px"
-pageinate = 15
+paginate = 27
 favicon = "/img/pikachu-icon.jpg"
 
 # CSS
@@ -29,16 +29,16 @@ descrption = "There is no spoon"
 pageinfobox = true
 
 [Params.color]
-bg     = "white"
-border = "black"
-link   = "#3d84ff"
-text   = "black"
+bg     = "#FCFCFC"
+border = "#FF9797"
+link   = "#5B5B5B"
+text   = "#272727"
 
 
 [Params.card]
 date = true
 summary = true
-width = "32%"
+width = "25%"
 
 [Params.sociallink]
 twitter = "lin_jneo8"
@@ -54,7 +54,7 @@ telegram = true
 [markup]
   [markup.tableOfcontents]
   endLevel = 6
-  startLevel = 1
+  startLevel = 2
 
 [menu]
 [[menu.main]]
