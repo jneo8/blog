@@ -4,8 +4,6 @@ date: 2020-09-08T12:06:23+08:00
 tags: ["k8s"]
 ---
 
-![k8s-logo](/img/k8s/Kubernetes-Logo.wine.svg)
-
 Resource list for kubernetes.
 
 <!--more-->

@@ -5,6 +5,7 @@ disqusShortname = "jneo8"
 theme = "sk3"
 googleAnalytics = "UA-171057898-1"
 staticDir = ["static"]
+paginate = 27
 
 [Params]
 mainSections = "posts flink kubernetes reading"
@@ -12,7 +13,6 @@ subtitle = "There is no spoon"
 startdate = "2019-01-01"
 listlastmod = true
 pagewidth = "1200px"
-paginate = 27
 favicon = "/img/pikachu-icon.jpg"
 
 # CSS

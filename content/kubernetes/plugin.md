@@ -4,8 +4,6 @@ date: 2020-09-04T15:32:40+08:00
 tags: ["kubernetes"]
 ---
 
-![k8s-logo](/img/k8s/Kubernetes-Logo.wine.svg)
-
 How to install kubectl plugin?
 
 <!--more-->
