@@ -4,8 +4,6 @@ date: 2020-08-23T20:55:16+08:00
 markup: mmark
 ---
 
-![flink-logo](/img/flink/flink-header-logo.svg)
-
 _Introduce Flink Checkpoints_ .
 
 <!--more-->

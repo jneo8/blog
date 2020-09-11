@@ -4,8 +4,6 @@ date: 2020-08-18T16:25:45+08:00
 tags: ["flink"]
 ---
 
-![flink-logo](/img/flink/flink-header-logo.svg)
-
 flink Unbounded and Bounded 
 
 <!--more-->

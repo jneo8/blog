@@ -1,10 +1,8 @@
 ---
-title: "ZookeeperInstall"
+title: "[k8s] ZookeeperInstall"
 date: 2020-09-09T14:37:16+08:00
 tags: ["k8s"]
 ---
-
-![k8s-logo](/img/k8s/Kubernetes-Logo.wine.svg)
 
 _Install ZooKeeper on k8s cluster_
 

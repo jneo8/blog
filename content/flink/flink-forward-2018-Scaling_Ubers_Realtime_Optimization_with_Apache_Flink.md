@@ -4,8 +4,6 @@ date: 2020-08-22T15:21:20+08:00
 tags: ["flink"]
 ---
 
-![flink-logo](/img/flink/flink-header-logo.svg)
-
 Flink Forward 2018 / Scaling Uber's Real-time Optimization with Flink 心得
 
 <!--more-->
