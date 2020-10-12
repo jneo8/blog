@@ -4,8 +4,6 @@ date: 2020-08-19T14:40:00+08:00
 tags: ["flink"]
 ---
 
-![flink-logo](/img/flink/flink-header-logo.svg)
-
 Flink Architecture basic introduce
 
 <!--more-->
@@ -69,4 +67,15 @@ Flink Architecture basic introduce
 
     * 管理單一JobGraph, Flink 可以同時運行多個job, 每個都有自己的job master
 
+---
+
+## Flink API
+
 ![flink-](/img/flink/levels_of_abstraction.svg)
+
+這張圖則是解釋 flink 各階層的 API 所支援的概念
+
+像最高階層如果想要寫類似 SQL 的語法去產生 flink job 就是 Flink SQL
+想要自己控制 state, eventTime 就可能要用 Low-level builging block
+實務上應該是需要瞭解最下層
+
