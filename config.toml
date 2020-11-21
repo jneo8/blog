@@ -8,6 +8,7 @@ staticDir = ["static"]
 paginate = 27
 
 [Params]
+openToc = true
 mainSections = "posts flink kubernetes reading"
 subtitle = "There is no spoon"
 startdate = "2019-01-01"
@@ -29,9 +30,9 @@ descrption = "There is no spoon"
 pageinfobox = true
 
 [Params.color]
-bg     = "#FCFCFC"
-border = "#FF9797"
-link   = "#5B5B5B"
+bg     = "#FFFFFF"
+border = "#F08080"
+link   = "#F08080"
 text   = "#272727"
 
 
