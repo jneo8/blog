@@ -1,66 +1,46 @@
 baseURL = "https://jneo8.github.io"
 languageCode = "en-us"
 title = "jneo8.github.io"
-disqusShortname = "jneo8"
-theme = "sk3"
-googleAnalytics = "UA-171057898-1"
+theme = "coder"
 staticDir = ["static"]
 paginate = 27
 
-[Params]
-openToc = true
-mainSections = "posts flink kubernetes reading"
-subtitle = "There is no spoon"
-startdate = "2019-01-01"
-listlastmod = true
-pagewidth = "1200px"
-favicon = "/img/pikachu-icon.jpg"
+# Disqus
+disqusShortname = "jneo8"
+# GA
+googleAnalytics = "UA-171057898-1"
 
-# CSS
-custom_css = ["/css/img.css"]
-# JS
-custom_js = ["/js/latex.js"]
+[params]
+author = "jneo8"
+info = "Backend/Data Engineer"
+description = "jneo8's blog"
+keywords = "blog,backend,developer,flink,kubernetes"
+avatarURL = "/img/pikachu-icon.jpg"
+favicon_32 = "/img/pikachu-icon.jpg"
+since = "2020"
+math = true
+katex = true
+colorScheme = "auto"
+customCSS = ["/css/img.css"]
 
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/jneo8/"
 
-# Twitter
-opengraph = true
-twittercards = true
-title = "jneo8.github.io"
-descrption = "There is no spoon"
-pageinfobox = true
-
-[Params.color]
-bg     = "#FFFFFF"
-border = "#F08080"
-link   = "#F08080"
-text   = "#272727"
-
-
-[Params.card]
-date = true
-summary = true
-width = "25%"
-
-[Params.sociallink]
-twitter = "lin_jneo8"
-github = "jneo8"
-linkedin = "james-lin-735548115"
-
-[Params.socialshare]
-twitter = true
-facebook = true
-linkedin = true
-telegram = true
-
-[markup]
-  [markup.tableOfcontents]
-  endLevel = 6
-  startLevel = 2
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/lin_jneo8/"
 
 [menu]
 [[menu.main]]
 name = "Tags"
 url = "/tags"
+weight = 100
 [[menu.main]]
 name = "WIP"
 url = "/wip"
+weight = 101
