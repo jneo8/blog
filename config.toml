@@ -41,6 +41,15 @@ name = "Tags"
 url = "/tags"
 weight = 100
 [[menu.main]]
+name = "Series"
+url = "/series"
+weight = 100
+[[menu.main]]
 name = "WIP"
 url = "/wip"
 weight = 101
+
+[taxonomies]
+category = "categories"
+series = "series"
+tags = "tags"

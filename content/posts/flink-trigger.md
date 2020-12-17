@@ -2,6 +2,7 @@
 title: "[Flink] Trigger"
 date: 2020-11-20T16:18:10+08:00
 tags: ["flink"]
+series: ["flink"]
 ---
 
 Flink Trigger

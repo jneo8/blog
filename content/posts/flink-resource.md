@@ -2,6 +2,7 @@
 title: "[Flink] Resource"
 date: 2020-08-20T10:13:02+08:00
 tags: ["flink"]
+series: ["flink"]
 ---
 
 Resource list for flink

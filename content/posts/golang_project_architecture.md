@@ -1,7 +1,7 @@
 ---
 title: "Golang_project_architecture"
 date: 2020-12-10T10:48:13+08:00
-tags: ["golang"]
+tags: ["golang", "clean architecture"]
 ---
 
 結構化的 Golang project 設計

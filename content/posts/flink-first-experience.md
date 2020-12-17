@@ -2,6 +2,7 @@
 title: "[Flink] Flink 學習初心者心得"
 date: 2020-08-11T22:11:12+08:00
 tags: ["flink"]
+series: ["flink"]
 ---
 
 講講最近flink學習的心得好了

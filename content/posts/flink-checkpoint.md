@@ -2,6 +2,7 @@
 title: "[Flink] Checkpoints"
 date: 2020-08-23T20:55:16+08:00
 tags: ["flink"]
+series: ["flink"]
 ---
 
 _Introduce Flink Checkpoints_ .
