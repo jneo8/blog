@@ -44,10 +44,6 @@ weight = 100
 name = "Series"
 url = "/series"
 weight = 100
-[[menu.main]]
-name = "WIP"
-url = "/wip"
-weight = 101
 
 [taxonomies]
 category = "categories"
