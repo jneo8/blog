@@ -1,7 +1,7 @@
 ---
 title: "[Flink] Checkpoints"
 date: 2020-08-23T20:55:16+08:00
-markup: mmark
+tags: ["flink"]
 ---
 
 _Introduce Flink Checkpoints_ .
