@@ -1,6 +1,7 @@
 ---
-title: "World_of_the_Five_Gods The_Curse_of_Chalion"
+title: "World of the Five Gods The Curse of Chalion"
 date: 2020-10-16T00:30:07+08:00
+tags: ["reading"]
 ---
 
 _五神傳說:王城闇影 心得_

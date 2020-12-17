@@ -2,6 +2,7 @@
 author: jneo8
 title: Awesome go
 date: 2020-07-21 00:01:21 +0800
+tags: ["golang"]
 ---
 
 _A curated list of awesome golang articles, frameworks, libraries, software and resources._
