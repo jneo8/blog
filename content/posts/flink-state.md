@@ -1,7 +1,9 @@
 ---
-title: "State"
+title: "[flink] State"
 date: 2020-08-26T17:18:31+08:00
-markup: mmark
+tags: ["flink"]
+series: ["flink"]
+draft: true
 ---
 
 ![flink-logo](/img/flink/flink-header-logo.svg)
