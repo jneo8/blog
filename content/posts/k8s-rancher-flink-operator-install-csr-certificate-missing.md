@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2020-12-23T16:50:26+08:00
 title = "[k8s]K8S Rancher Install Flink Operator CSR Certificate Missing"
 description = ""
