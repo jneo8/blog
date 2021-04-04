@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2021-02-24T15:30:12+08:00
 title = "Most adequate guide to functional programming"
 description = "Summary to mostly adequate guide to functional programming"
