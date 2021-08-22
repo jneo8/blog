@@ -7,4 +7,4 @@
 	url = https://github.com/J-Siu/hugo-theme-sk3
 [submodule "themes/coder"]
 	path = themes/coder
-	url = https://github.com/luizdepra/hugo-coder
+	url = git@github.com:jneo8/hugo-coder.git
