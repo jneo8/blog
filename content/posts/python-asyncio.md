@@ -9,6 +9,7 @@ tags = ["python", "asyncio"]
 categories = ["python", "asyncio"]
 externalLink = ""
 series = []
+mermaid = true
 +++
 
 
@@ -42,9 +43,8 @@ else:
 
 先來張基本流程示意圖
 
-```mermaid
+{{<mermaid>}}
 graph LR
-
     style handler fill:#bbf
     style EventLoop fill:#f9f
     style IO fill:#abc
@@ -53,7 +53,7 @@ graph LR
     EventLoop -- trigger callback ---> handler
     EventLoop -- Register Callback ---> IO((IO))
     IO -- Operation Complete ---> EventLoop
-```
+{{</mermaid>}}
 
 想要了解 python asyncio, 就需要理解幾個相關詞跟概念
 
