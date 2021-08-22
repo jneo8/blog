@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/jneo8/jneo8.github.io.git
+	url = git@github.com:jneo8/jneo8.github.io.git
 	branch = master
 [submodule "themes/sk3"]
 	path = themes/sk3
